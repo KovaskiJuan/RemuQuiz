@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                selectedTopicName = "fixa";
+                selectedTopicName = "Remuneração Fixa";
 
                 fixa.setBackgroundResource(R.drawable.round_back_white_stroke10);
 
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                selectedTopicName = "variavel";
+                selectedTopicName = "Remuneração Variável";
 
                 variavel.setBackgroundResource(R.drawable.round_back_white_stroke10);
 
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                selectedTopicName = "benef";
+                selectedTopicName = "Benefícios";
 
                 benef.setBackgroundResource(R.drawable.round_back_white_stroke10);
 
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                selectedTopicName = "explosion";
+                selectedTopicName = "Quebra Qrânio";
 
                 explosion.setBackgroundResource(R.drawable.round_back_white_stroke10);
 

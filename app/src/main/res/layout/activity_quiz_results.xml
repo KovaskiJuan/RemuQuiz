@@ -9,13 +9,14 @@
 
     <ImageView
         android:id="@+id/congratulationsIcon"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginTop="50dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/congratulations"/>
+        android:src="@drawable/complete"
+        />
     
     <TextView
         android:id="@+id/successTextView"
@@ -43,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/correctAnswers"
-            android:text="Respostas Corretas: 0"
+            android:text="Acertos: "
             android:textStyle="bold"
             android:textColor="@color/green"
             android:textSize="16sp"
@@ -54,7 +55,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/incorrectAnswers"
             android:layout_marginTop="5dp"
-            android:text="Respostas Erradas: 0"
+            android:text="Erros: "
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="@color/red"
@@ -64,18 +65,18 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/startNewQuizBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/round_back_green20"
-        android:text="Comece um novo Quiz"
-        android:textColor="@color/pink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Começar um novo Quiz"
+        android:textStyle="bold"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textColor="@color/pink"
+        android:layout_below="@+id/incorrectAnswers"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_back_green20"
+        tools:ignore="NotSibling" />
 
 
 </RelativeLayout>
